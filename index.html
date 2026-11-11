@@ -3,15 +3,18 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
   <meta name="description" content="2027 사무자동화산업기사 1권 필기 자체 문항 320개로 구성한 필기 CBT. 모의고사 3회, 2~8장 대표 문제, 오답 다시 풀기.">
-  <title>사무자동화산업기사 필기 CBT</title>
+  <title>사무자동화산업기사 1권 필기 CBT</title>
+  <link rel="preload" href="fonts/Pretendard-Medium.subset.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Pretendard-Black.subset.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="topbar">
-    <a class="brand" href="#home" data-go="home">
-      <span class="brand-mark" aria-hidden="true">OA</span>
-      <span class="brand-text"><strong>사무자동화산업기사 필기 CBT</strong><small>2027 교재 자체 문항 320</small></span>
+    <a class="brand" href="#home">
+      <strong>사무자동화산업기사</strong>
+      <span class="brand-key">1권 필기 CBT</span>
     </a>
     <div class="topbar-tools" id="topbar-tools"></div>
   </header>
@@ -21,7 +24,7 @@
   </main>
 
   <footer class="footer">
-    <p>문항 출처: 『2027 사무자동화산업기사 1권 필기』 모의고사 1~3회, 2~8장 대표 문제. 해설의 절·표 번호는 책 기준. 학습 기록은 이 브라우저에만 저장.</p>
+    <p>문항 출처: 『2027 사무자동화산업기사 1권 필기』 모의고사 1~3회, 2~8장 대표 문제. 해설의 절·표 번호는 책 기준. 학습 기록은 이 브라우저에만 저장. 글꼴: Pretendard(SIL OFL 1.1).</p>
   </footer>
 
   <div class="modal" id="modal" hidden>
@@ -29,8 +32,8 @@
       <h2 id="modal-title"></h2>
       <p id="modal-text"></p>
       <div class="modal-actions">
-        <button type="button" id="modal-cancel">취소</button>
-        <button type="button" class="primary" id="modal-ok">확인</button>
+        <button type="button" class="btn" id="modal-cancel">취소</button>
+        <button type="button" class="btn primary" id="modal-ok">확인</button>
       </div>
     </div>
   </div>
